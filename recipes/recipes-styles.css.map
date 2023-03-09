@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,OAAO;CAC5B",
-    "sources": [
-        "recipes-styles.scss"
-    ],
-    "names": [],
-    "file": "recipes-styles.css"
-}
+{"version":3,"sources":["recipes-styles.scss","recipes-styles.css"],"names":[],"mappings":"AAAA;;;;wCAAA;AAKA;wCAAA;AAEQ,oFAAA;AAER;EACE,2BAAA;EACA,qBAAA;ACAF;;ADGA;EACE,uCAAA;ACAF;;ADEA;EAEE,yCAAA;ACAF;;ADMA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,WAAA;EACA,YAAA;ACHF;ADKE;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,YAAA;EACA,aAAA;EACA,gCAAA;EAEA,2CAAA;ACJJ;ADMI;EACE,cAAA;ACJN;ADOI;EACE,YAAA;EACA,aAAA;EACA,oBAAA;KAAA,iBAAA;ACLN;ADQA;EACE,oBAAA;EACA,mBAAA;EACA,eAAA;EACA,kDAAA;ACNF;ADSA;EACE;IAAO,qBAAA;ECNP;EDOA;IAAK,qBAAA;ECJL;AACF","file":"recipes-styles.css"}
