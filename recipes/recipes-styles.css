@@ -15,12 +15,17 @@
   --primary-brown: #a9792b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: "Caesar Dressing", cursive;
 }
 
 body {
   background-color: var(--primary-greish);
+  margin: 0;
 }
 
 main {
@@ -36,6 +41,35 @@ a {
   text-align: center;
   padding: 1.5rem 0;
   margin: 0;
+}
+
+/* HEADER STYLES
+=======================================*/
+.navigation {
+  min-height: 80px;
+  background: #282a35;
+  width: 100%;
+}
+.navigation .navMenu {
+  list-style: none !important;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  padding: 0 6rem;
+  margin: 0;
+}
+.navigation .navMenu li {
+  list-style: none !important;
+}
+.navigation .navMenu a {
+  font-size: 1.5rem;
+  text-decoration: none !important;
+  color: white;
+  display: block;
+  width: 100% !important;
+  padding: 1em;
+}
+.navigation .navMenu a:hover {
+  background: #000;
 }
 
 /* HOMEPAGE STYLES
@@ -158,4 +192,7 @@ a {
 }
 .recipe__details .recipe__directions {
   padding: 2rem 0;
+}
+.recipe__details div {
+  flex-grow: 2;
 }/*# sourceMappingURL=recipes-styles.css.map */

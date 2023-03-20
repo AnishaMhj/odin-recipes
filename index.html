@@ -1,65 +1,80 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="recipes/recipes-styles.css">
-</head>
-
-<body>
+    <link rel="stylesheet" href="recipes/recipes-styles.css" />
+  </head>
+  <script>
+    $(window).on('scroll',function(){
+             if($(window).scrollTop()){
+                 $('nav').addClass('black');
+             }
+             else{
+                 $('nav').removeClass('black');
+             }
+         })   $('nav').addClass('sticky');
+            }
+  </script>
+  <body>
+    <header>
+      <!-- The Codecademy Docs nav bar -->
+      <nav class="navigation">
+        <ul class="navMenu">
+          <li><a href="homepage.html">ODIN</a></li>
+          <li><a href="index.html">RECIPES</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-        <section class="recipe__section">
-            <h1 class="page__title">Odin Recipes</h1>
-            <section class="recipe__lists">
-                <article class="recipe__block">
-                    <figure class="recipeImage">
-                        <img src="recipes/images/lasagna.png" alt="Lasagna">
-                    </figure>
-                    <div class="recipeInfo">
-                        <a href="recipes/lasagna.html">
-                            <h2>Lasagna</h2>
-                        </a>
-                    </div>
-                   
-                </article>
-                <article class="recipe__block">
-                    <figure class="recipeImage">
-                        <img src="recipes/images/garlic-butter-shrimp.png" alt="Lasagna">
-                    </figure>
-                    <div class="recipeInfo">
-                        <a href="recipes/butter-shrimp.html">
-                            <h2>Butter Shrimp</h2>
-                        </a>
-                    </div>
-                   
-                </article>
-                <article class="recipe__block">
-                    <figure class="recipeImage">
-                        <img src="recipes/images/mongolian-beef.png" alt="Lasagna">
-                    </figure>
-                    <article class="recipeInfo">
-                        <a href="recipes/mongolian-beef.html">
-                            <h2>Mongolian Beef</h2>
-                        </a>
-                    </article>
-                   
-                </article>
-                <article class="recipe__block">
-                    <figure class="recipeImage">
-                        <img src="recipes/images/pork-chop.png" alt="Lasagna">
-                    </figure>
-                    <div class="recipeInfo">
-                        <a href="recipes/pork-chops-gravy.html">
-                            <h2>Pork Chops Gravy</h2>
-                        </a>
-                    </div>
-                   
-                </article>
-            </section>
+      <section class="recipe__section">
+        <h1 class="page__title">Odin Recipes</h1>
+        <section class="recipe__lists">
+          <article class="recipe__block">
+            <figure class="recipeImage">
+              <img src="recipes/images/lasagna.png" alt="Lasagna" />
+            </figure>
+            <div class="recipeInfo">
+              <a href="recipes/lasagna.html">
+                <h2>Lasagna</h2>
+              </a>
+            </div>
+          </article>
+          <article class="recipe__block">
+            <figure class="recipeImage">
+              <img
+                src="recipes/images/garlic-butter-shrimp.png"
+                alt="Lasagna"
+              />
+            </figure>
+            <div class="recipeInfo">
+              <a href="recipes/butter-shrimp.html">
+                <h2>Butter Shrimp</h2>
+              </a>
+            </div>
+          </article>
+          <article class="recipe__block">
+            <figure class="recipeImage">
+              <img src="recipes/images/mongolian-beef.png" alt="Lasagna" />
+            </figure>
+            <article class="recipeInfo">
+              <a href="recipes/mongolian-beef.html">
+                <h2>Mongolian Beef</h2>
+              </a>
+            </article>
+          </article>
+          <article class="recipe__block">
+            <figure class="recipeImage">
+              <img src="recipes/images/pork-chop.png" alt="Lasagna" />
+            </figure>
+            <div class="recipeInfo">
+              <a href="recipes/pork-chops-gravy.html">
+                <h2>Pork Chops Gravy</h2>
+              </a>
+            </div>
+          </article>
         </section>
+      </section>
     </main>
-    
-</body>
-
+  </body>
 </html>
